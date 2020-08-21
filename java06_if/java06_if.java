@@ -73,6 +73,28 @@ public class java06_if {
         
         System.out.printf("\n");
         
+        if ( numero1 % 6 == 0){
+            System.out.printf("%d és divisible per 6",numero1);
+        }else{
+            System.out.printf("%d no és divisible per 6",numero1);
+        }
+        
+        System.out.printf("\n");
+        
+        if (suma % 3 == 0){
+            System.out.printf("%d és divisible per 3", suma);
+        }else{
+            System.out.printf("%d no és divisible per 3", suma);
+        }
+        
+        System.out.printf("\n");
+        
+        int resta = numero1 - numero2;
+        if ( (resta * resta) > 0 ){
+            System.out.printf("(%d"+" * "+"%d) és positiu",resta,resta );
+        }else{
+            System.out.printf("(%d"+" * "+"%d) és negatiu",resta,resta );
+        }
         
          
     }
