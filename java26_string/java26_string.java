@@ -11,7 +11,6 @@ package java26_string;
  */
 
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class java26_string {
     public static void main(String[] args) {  
