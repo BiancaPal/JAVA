@@ -25,9 +25,9 @@ public class java27_string {
      
         for (int i = 0; i < s.length(); i++){
             if (i % 2 == 0){
-                System.out.print(s.toUpperCase().charAt(i));
+                System.out.print(s.toUpperCase().substring(i,i+1));
             } else{
-                System.out.print(s.toLowerCase().charAt(i));
+                System.out.print(s.toLowerCase().substring(i,i+1));
             }
         }
       
