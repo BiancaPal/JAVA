@@ -3,18 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java47_vector;
+package java48_vector;
 
+import java.util.GregorianCalendar;
 
 /**
  *
  * @author Alex
  */
-
-import java.util.GregorianCalendar;
-
-public class java47_vector {
-    public static void main(String[] arg) 
+public class java48_vector {
+     public static void main(String[] arg) 
     { 
        GregorianCalendar calendari;
        
@@ -24,6 +22,10 @@ public class java47_vector {
        for (int i=-1; i<12; i++){
            calendari.set(1973, i, 5);
            calendari.add(GregorianCalendar.MONTH,1);
+           System.out.println(calendari.getTime() );
+       }
+       for (int i=-1 ; i<6; i++){
+           calendari.add(GregorianCalendar.MONTH,+2);
            System.out.println(calendari.getTime() );
        }
        
