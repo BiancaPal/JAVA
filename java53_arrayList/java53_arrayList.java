@@ -23,7 +23,6 @@ public class java53_arrayList {
        Object[] obj={"Jaume", 10, "Maria", 8.5, "Pere", 6.43, true};
        
        
-       int num1 = 0;
        
        for (int i=0; i<obj.length; i++){
            
