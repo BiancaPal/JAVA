@@ -109,12 +109,8 @@ public class java57_arrayList {
         
         
     }
-   /* System.out.println(" "+temps1);  
-    System.out.println(" "+temps2);  
-    System.out.println(" "+temps3);  
-    System.out.println(" "+temps4);  
-    System.out.println(" "+temps5);    
-     */
+    
+   
     }
     
     
