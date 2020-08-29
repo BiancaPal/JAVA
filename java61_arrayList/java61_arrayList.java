@@ -14,19 +14,21 @@ import java.util.ArrayList;
 public class java61_arrayList {
      public static void main(String[] args) {
          
-         ArrayList<Double> numeros = new ArrayList<Double>();
+         ArrayList<Integer> numeros = new ArrayList<Integer>();
          
          int max = 90;
          int min = 65;
          int range = (max-min)+1;
          
          for (int i=1; i<=10; i++){
-             numeros.add((Math.random()*range)+ 65);
+             int num = (int)(Math.random()*range)+65;
+             numeros.add(num);
+             
          }
          
-         for (double numero:numeros){
-             int numeroInt = (int)numero;
-             System.out.print(" "+numeroInt);
+         for (int numero:numeros){
+             char character = (char)numero;
+             System.out.print(character+" ");
          }
          
          
